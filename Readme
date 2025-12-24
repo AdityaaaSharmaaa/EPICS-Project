@@ -1,0 +1,80 @@
+# Rural Digital Payments & Community Credit Score Platform
+
+> **EPICS Project (Engineering Projects in Community Service)**
+> A mobile-first solution bridging the financial gap in rural communities through accessible digital payments and alternative credit scoring.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-React%20Native%20%7C%20Android%20%7C%20iOS-orange)
+![Language](https://img.shields.io/badge/language-TypeScript-blue)
+
+## 📖 Overview
+
+This project is developed as part of the **EPICS (Engineering Projects in Community Service)** curriculum. It aims to solve two critical issues in rural finance:
+1.  **Accessibility:** Providing a simple, low-bandwidth digital payment interface for users with limited tech literacy.
+2.  **Creditworthiness:** Establishing a "Community Credit Score" system that leverages transaction history and community trust factors to enable micro-lending for individuals without formal banking history.
+
+## ✨ Key Features
+
+* ** Simplified Digital Wallet**: Easy-to-use interface for sending and receiving money, optimized for rural connectivity.
+* ** 📊 Community Credit Score**: A proprietary algorithm that calculates a dynamic credit score based on repayment habits and community endorsements.
+* ** 📱 Offline/Low-Data Mode**: Core features designed to function efficiently in areas with unstable internet connections.
+* ** 🔐 Secure Transactions**: End-to-end encryption for all financial data.
+* ** 👥 Community Groups**: Support for Self-Help Groups (SHGs) to manage pooled funds and internal lending.
+
+## 🛠️ Tech Stack
+
+* **Frontend**: React Native (Expo)
+* **Language**: TypeScript
+* **State Management**: React Context API / Redux (Planned)
+* **Navigation**: React Navigation
+* **Styling**: StyleSheet / NativeBase
+
+## 🚀 Getting Started
+
+Follow these instructions to set up the project locally on your machine.
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (v14 or newer)
+* [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+* [Expo Go](https://expo.dev/client) app installed on your physical device (Android/iOS).
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/AdityaaaSharmaaa/EPICS-Project.git](https://github.com/AdityaaaSharmaaa/EPICS-Project.git)
+    cd EPICS-Project
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npx expo start
+    ```
+
+4.  **Run on Device:**
+    * Scan the QR code displayed in the terminal using the **Expo Go** app on your phone.
+    * Ensure your phone and computer are on the same Wi-Fi network.
+
+## 📂 Project Structure
+
+```text
+EPICS-Project/
+├── assets/            # Images, fonts, and static resources
+├── src/
+│   ├── components/    # Reusable UI components (Buttons, Cards, Headers)
+│   ├── screens/       # Main application screens (Home, Wallet, CreditScore)
+│   ├── navigation/    # Stack and Tab navigation configurations
+│   ├── utils/         # Helper functions and constants
+│   └── services/      # API calls and backend interaction logic
+├── App.tsx            # Application entry point
+├── app.json           # Expo configuration
+├── tsconfig.json      # TypeScript configuration
+└── package.json       # Dependencies and scripts
